@@ -1,0 +1,140 @@
+1.Explaine angular architecture ?
+
+angular is a platform and framework for building client applications in html and typescript.
+angular writen in typescript is implements core and optional funtionality as a set of typescript libraries that you import into your apps.
+
+
+
+
+2.What is routing? and how to do the angular in routing?
+
+the angular rouoter enables navigation from one view to the next user perform applicvation  tasks.
+routing basically means navigating between pages
+=>first view inport router nodule 
+=> create a route and give the path
+=>import the route
+=>give the router link in html page
+
+
+
+3.How to interacting the front end to backend ?
+
+=> first creating a database in the mongodb
+=> using conection string get the data into middleware 
+=>in front end using services and models to axis the data
+
+
+4.What is bootstrap ?
+
+bootstrap is the most popular css, html and javscript framework for developing respansive and mobile first websites 
+
+
+
+
+5.what is the difference b/w HTTPCLient and Http?
+
+we import { Http } from '@angular/http';
+
+we  import { HttpClient } from '@angular/common/http'
+
+
+
+
+7.What do know in css animation?
+
+An animation lets an element gradually change from one style to another.
+
+You can change as many CSS properties you want, as many times you want.
+
+To use CSS animation, you must first specify some keyframes for the animation.
+
+Keyframes hold what styles the element will have at certain times.
+
+
+
+8.Tell me something in your project?
+
+my project name is rental application iam working on user module.i did user registrion,login and home pages.in home page buy ,sell,properties pages are their
+you can clilck any page you choose loation ,money(max-min)and propertytype you get the all the information regarding it.on home page whatsnew  provide recent all details.
+ you are not able understood our application in home page we providing help page you can easily understand.
+
+
+9.Angular matarial and css asking on animation topics?
+
+
+angular materials is collection of material design and animation  components for angular  by using these components you can apply material desgin and animation  very easiy  
+
+
+
+
+1.What is Nodejs?
+node.js is an open sourec server side runtime environment built on chromes v8 gavscript engine.
+it provides an eavent driven ,non-blocking(asynchronous) and ceoss-paltform runtime enviornment
+for building highly sclable server-side application using javascript
+
+
+2.Why it is so lightweight and fast?
+Light travels so fast because it has no mass. The particles that make up electromagnetic radiation are called photons. 
+Each photon has a packet or quantum of energy depending on the frequency of the radiation. The photon also has some momentum, but its mass is zero.
+
+3.what is event loop and how it's works?
+
+Node.js is a single-threaded application, but it can support concurrency via the concept of event and callbacks.
+ every api of Node.js is asynchronous and being single-threaded, they use async function calls to maintain concurrency.
+ Node uses observer pattern. Node thread keeps an event loop and whenever a task gets completed, it fires the corresponding event which signals the event-listener function to execute.
+
+4.what is the error first callback.
+When the operation either completes or an error is raised, the callback function is called with the Error object (if any) passed as the first argument
+
+5.what is difference between callback and promises.
+
+ A Promise is an object that represents a value which might not yet exist.
+The difference between Promises and the traditional callbacks approach, is that async methods now synchronously return Promise objects, which the client sets a callback on
+
+
+6.what is the callback and why we are used it.
+
+The common name for the function passed in is a callback function.
+ This is an example of using the callback variable in a JavaScript Function. Function One takes in an argument and issues an alert with the x as it's argument. 
+Function Two takes in an argument and a function.
+
+
+7.what is event emitter and what is used of it.
+Much of the Node.js core API is built around an idiomatic asynchronous event-driven architecture
+ in which certain kinds of objects (called "emitters") emit named events that cause Function objects ("listeners") to be called. 
+All objects that emit events are instances of the EventEmitter class
+Usage noteslink. In the following example, a component defines two output properties that create event emitters.
+ When the title is clicked, the emitter emits an open or close event to toggle the current visibility state.
+
+
+8.what is callback hell and how to avoid it.
+Callbacks are just the name of a convention for using JavaScript functions. 
+There isn't a special thing called a 'callback' in the JavaScript language, it's just a convention.
+ Instead of immediately returning some result like most functions, functions that use callbacks take some time to produce a result. 
+The word 'asynchronous', aka 'async' just means 'takes some time' or 'happens in the future, not right now'.
+ Usually callbacks are only used when doing I/O, e.g. downloading things, reading files, talking to databases.
+
+9.what is require() module.
+The require object. There is nothing special about require .
+ It's an object that acts mainly as a function that takes a module name or path and returns the module.exports object
+
+10.how to call multiples api's and get all api's response in one time.
+
+
+ consider having NO client API calls at all. simply generate the . So you conclude, its best to have single API to call for all home page resources response at once .
+ time needed to complete a given operation from the perspective of . In your specific case, all of your methods have the word 'get' in their .
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
